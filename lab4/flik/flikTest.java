@@ -8,7 +8,7 @@ import static org.junit.Assert.assertTrue;
 //The obvious conclusion: never rely on two references being identical, always compare them with .equals() method.
 public class flikTest {
     @Test
-    public void testFlik(){
+    public void testFlik() {
         int a;
         int b;
         for (int i = 0; i <= 200; i++){
@@ -18,12 +18,12 @@ public class flikTest {
         }
     }
     @Test
-    public void testFlik2(){
+    public void testFlik2() {
         int a;
         int b;
         a = 128;
         b = 128;
             assertTrue(Flik.isSameNumber(a, b));
-        }
     }
+}
 
